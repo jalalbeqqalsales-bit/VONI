@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>
+(function () {
+  function followLegacySection() {
+    var pages = {services: 'services', portfolio: 'portfolio', about: 'about', contact: 'contact', faq: 'faq'};
+    var page = pages[location.hash.slice(1)];
+    if (!page) return;
+    var destination = new URL(page + '/', location.href);
+    destination.search = location.search;
+    location.replace(destination.href);
+  }
+  followLegacySection();
+  window.addEventListener('hashchange', followLegacySection);
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voniweb Agency | Web Design &amp; SEO in Morocco</title>
+<meta name="description" content="Morocco-based Voniweb Agency: custom websites, SEO, B2B/B2C lead generation, booking automation and digital branding for local and international businesses.">
+<meta name="author" content="Voniweb Agency">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://voniweb.com/">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#020B18">
+<meta name="application-name" content="Voniweb Agency">
+<meta name="format-detection" content="telephone=no">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://voniweb.com/">
+<meta property="og:title" content="Voniweb Agency | Web Design &amp; SEO in Morocco">
+<meta property="og:description" content="Morocco-based Voniweb Agency: custom websites, SEO, B2B/B2C lead generation, booking automation and digital branding for local and international businesses.">
+<meta property="og:image" content="https://voniweb.com/favicon.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="Voniweb Agency – Web Design, Lead Generation and SEO">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Voniweb Agency">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Voniweb Agency | Web Design &amp; SEO in Morocco">
+<meta name="twitter:description" content="Morocco-based Voniweb Agency: custom websites, SEO, B2B/B2C lead generation, booking automation and digital branding for local and international businesses.">
+<meta name="twitter:image" content="https://voniweb.com/favicon.png">
+<meta name="twitter:image:alt" content="Voniweb Agency – Web Design, Lead Generation and SEO">
+<meta name="geo.region" content="MA">
+<meta name="geo.placename" content="Taza, Fès-Meknès, Morocco">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://voniweb.com/#org",
+      "name": "Voniweb Agency",
+      "url": "https://voniweb.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://voniweb.com/#logo",
+        "url": "https://voniweb.com/assets/images/voniweb-logo.webp",
+        "width": 1024,
+        "height": 1536
+      },
+      "image": "https://voniweb.com/assets/images/voniweb-logo.webp",
+      "email": "hello@voniweb.com",
+      "telephone": "+212669840756",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Taza",
+        "addressRegion": "Fès-Meknès",
+        "addressCountry": "MA"
+      },
+      "sameAs": [
+        "https://www.instagram.com/voniweb"
+      ],
+      "description": "Morocco-based agency providing website development, B2B and B2C lead generation, calendar filling and automation, SEO and digital branding for clients worldwide.",
+      "areaServed": "Worldwide",
+      "knowsLanguage": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://voniweb.com/#site",
+      "url": "https://voniweb.com/",
+      "name": "Voniweb Agency",
+      "publisher": {
+        "@id": "https://voniweb.com/#org"
+      },
+      "inLanguage": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://voniweb.com/#webpage",
+      "url": "https://voniweb.com/",
+      "name": "Voniweb Agency | Web Design & SEO in Morocco",
+      "isPartOf": {
+        "@id": "https://voniweb.com/#site"
+      },
+      "about": {
+        "@id": "https://voniweb.com/#org"
+      },
+      "inLanguage": "en",
+      "description": "Morocco-based Voniweb Agency: custom websites, SEO, B2B/B2C lead generation, booking automation and digital branding for local and international businesses."
+    }
+  ]
+}
+</script>
+<link rel="preload" href="assets/fonts/google-font-1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/google-font-2.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/google-fonts.css">
+<link rel="stylesheet" href="assets/css/font-awesome.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<noscript><style>#loader{display:none}.reveal,.reveal-left,.reveal-right{opacity:1;transform:none;transition:none}</style></noscript>
+</head>
+<body data-current-page="home">
+
+<!-- ─── LOADER ─────────────────────────────────────────── -->
+<div id="loader">
+  <div class="loader-logo"><img src="assets/images/voniweb-logo.webp" alt="Voniweb" style="height:330px;width:auto;mix-blend-mode:screen;" width="1024" height="1536" decoding="async" fetchpriority="high"></div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+<!-- ─── NAVBAR ─────────────────────────────────────────── -->
+<nav id="navbar" aria-label="Primary navigation">
+  <div class="nav-inner">
+    <a href="./" class="nav-logo"><img src="assets/images/voniweb-logo.webp" alt="Voniweb" class="nav-logo-img" style="height:156px;width:auto;display:block;" width="1024" height="1536" decoding="async" fetchpriority="high"></a>
+    <ul class="nav-links">
+      <li><a href="./" data-i18n="nav_home">Home</a></li>
+      <li><a href="about/" data-i18n="nav_about">About</a></li>
+      <li><a href="services/" data-i18n="nav_services">Services</a></li>
+      <li><a href="portfolio/" data-i18n="nav_portfolio">Portfolio</a></li>
+      <li><a href="faq/" data-i18n="nav_faq">FAQ</a></li>
+      <li><a href="contact/" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-switcher">
+        <button type="button" class="lang-btn active" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="fr">FR</button>
+      </div>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <a href="contact/" class="btn-cta desktop" data-i18n="nav_cta">Get Started</a>
+      <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Menu" aria-controls="mobileNav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+  <a href="about/" data-i18n="nav_about">About</a>
+  <a href="services/" data-i18n="nav_services">Services</a>
+  <a href="portfolio/" data-i18n="nav_portfolio">Portfolio</a>
+  <a href="faq/" data-i18n="nav_faq">FAQ</a>
+  <a href="contact/" data-i18n="nav_contact">Contact</a>
+  <a href="contact/" style="margin-top:8px; display:inline-block; padding:10px 22px; border-radius:999px; background:linear-gradient(135deg,var(--blue-400),var(--accent)); color:#fff; font-weight:700; text-align:center; box-shadow:0 4px 20px rgba(14,165,233,0.35);" data-i18n="nav_cta_mobile">Get Free Quote</a>
+</div>
+
+<!-- ─── HERO ───────────────────────────────────────────── -->
+<main id="home">
+<section id="hero" data-page="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        <span data-i18n="hero_badge">Premium Web Agency · Morocco</span>
+      </div>
+      <h1 class="hero-h1">
+        <span data-i18n="hero_h1a">We Build</span><br>
+        <span class="grad" data-i18n="hero_h1b">Digital Experiences</span><br>
+        <span data-i18n="hero_h1c">That Convert</span>
+      </h1>
+      <p class="hero-desc" data-i18n="hero_desc">
+        Voniweb crafts high-performance, visually stunning websites that turn visitors into loyal customers. Based in Morocco, serving clients globally.
+      </p>
+      <div class="hero-actions">
+        <a href="contact/" class="btn-primary">
+          <span data-i18n="hero_cta1">Start Your Project</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="portfolio/" class="btn-outline">
+          <i class="fas fa-play-circle"></i>
+          <span data-i18n="hero_cta2">View Our Work</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <img src="assets/images/voniweb-website-design.jpg" alt="Premium Website Design" loading="eager" fetchpriority="high" width="900" height="710" decoding="async">
+        <div class="hero-img-overlay"></div>
+      </div>
+      <div class="hero-float-card fc1">
+        <div class="fc-icon">🚀</div>
+        <div class="fc-val" data-i18n="fc1_val">Fast Delivery</div>
+        <div class="fc-label" data-i18n="fc1_lbl">1–3 Days Avg</div>
+      </div>
+      <div class="hero-float-card fc2">
+        <div class="fc-icon">⭐</div>
+        <div class="fc-val">5.0 / 5</div>
+        <div class="fc-label" data-i18n="fc2_lbl">Client Rating</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span data-i18n="scroll">Scroll</span>
+  </div>
+</section>
+
+<section id="services" data-page="services">
+  <div class="container">
+    <div class="services-header reveal">
+      <div class="section-tag"><i class="fas fa-layer-group"></i> <span data-i18n="serv_tag">What We Offer</span></div>
+      <h2 class="section-title" data-i18n="serv_title">Services Built for <span class="text-accent">Growth</span></h2>
+      <p class="section-sub" data-i18n="serv_sub">From your first website to a full digital overhaul, we have a service tailored to your business needs.</p>
+    </div>
+    <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+      <div class="service-card reveal delay-1">
+        <div class="sc-icon"><i class="fas fa-code"></i></div>
+        <h3 class="sc-title" data-i18n="s1_title">Website Development</h3>
+        <div class="sc-desc" data-i18n="s1_desc">Tailored, semantic HTML5, Tailwind CSS, and JavaScript solutions built for speed, responsiveness, and conversion — with design crafted to attract and retain more visitors.</div>
+      </div>
+      <div class="service-card reveal delay-2">
+        <div class="sc-icon"><i class="fas fa-filter"></i></div>
+        <h3 class="sc-title" data-i18n="s2_title">B2B / B2C Lead Generation</h3>
+        <div class="sc-desc" data-i18n="s2_desc"><strong style="color:var(--accent);font-weight:600;">B2C:</strong> Calendar filling with qualified appointments. <strong style="color:var(--accent);font-weight:600;">B2B:</strong> Targeted Excel lead files by niche, location, and desired contact fields — delivered ready to use.</div>
+      </div>
+
+      <div class="service-card reveal delay-1">
+        <div class="sc-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+        <h3 class="sc-title" data-i18n="s4_title">SEO &amp; Digital Branding</h3>
+        <div class="sc-desc" data-i18n="s4_desc">Comprehensive on-page SEO audits, keyword strategies, and visual identity design to dominate local and regional search results — and make your brand impossible to ignore.</div>
+      </div>
+    </div>
+    <div class="hero-actions reveal"><a href="services/" class="btn-primary"><span data-i18n="nav_services">Services</span><i class="fas fa-arrow-right"></i></a></div>
+
+  </div>
+</section>
+
+<section id="why" data-page="about">
+  <div class="why-bg"></div>
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-left reveal-left">
+        <div class="section-tag"><i class="fas fa-trophy"></i> <span data-i18n="why_tag">Why Voniweb</span></div>
+        <h2 class="section-title" data-i18n="why_title">The Agency That Delivers, Every Time</h2>
+        <p data-i18n="why_p1">We're not just developers — we're strategic partners in your digital growth. Every decision we make is in service of one goal: your success online.</p>
+        <p data-i18n="why_p2">Our clients trust us because we consistently deliver on time, on budget, and beyond expectations.</p>
+        <a href="contact/" class="btn-primary" style="width:fit-content;">
+          <span data-i18n="why_cta">Work With Us</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="why-right reveal-right">
+        <div class="why-card delay-1">
+          <div class="wc-icon"><i class="fas fa-rocket"></i></div>
+          <h3 class="wc-title" data-i18n="wc1_title">Fast Delivery</h3>
+          <div class="wc-desc" data-i18n="wc1_desc">Most projects go live within 1–3 business days without compromising quality.</div>
+        </div>
+        <div class="why-card delay-2">
+          <div class="wc-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3 class="wc-title" data-i18n="wc2_title">Secure &amp; Reliable</h3>
+          <div class="wc-desc" data-i18n="wc2_desc">SSL, regular backups, and security hardening are standard on every project.</div>
+        </div>
+
+        <div class="why-card delay-4">
+          <div class="wc-icon"><i class="fas fa-comments"></i></div>
+          <h3 class="wc-title" data-i18n="wc4_title">Clear Communication</h3>
+          <div class="wc-desc" data-i18n="wc4_desc">Regular updates, transparent pricing, and no surprises — ever.</div>
+        </div>
+
+        <div class="why-card delay-6">
+          <div class="wc-icon"><i class="fas fa-globe-africa"></i></div>
+          <h3 class="wc-title" data-i18n="wc6_title">Local &amp; Global</h3>
+          <div class="wc-desc" data-i18n="wc6_desc">Morocco-based with international standards, serving clients from Casablanca to Canada.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" data-page="portfolio">
+  <div class="container">
+    <div class="portfolio-header reveal">
+      <div class="section-tag"><i class="fas fa-th-large"></i> <span data-i18n="port_tag">Our Work</span></div>
+      <h2 class="section-title" data-i18n="port_title">Projects <span class="text-accent">Done</span></h2>
+      <p class="section-sub" data-i18n="port_sub">A selection of websites we've built that drive real results for real businesses.</p>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="portfolio-card reveal delay-1" data-cat="business">
+        <div class="pc-img">
+          <img src="assets/images/bossdawg.jpg" alt="Bossdawg Tree Removals website designed by Voniweb Agency" loading="lazy" decoding="async" style="object-fit: contain; padding: 12px; background: #000;" width="447" height="447">
+
+        </div>
+        <div class="pc-info">
+          <div class="pc-tag">Tree Service</div>
+          <h3 class="pc-title">Boosawg Tree Removals - Canada</h3>
+          <a href="https://bossdawgtreeremoval.com" target="_blank" rel="noopener" style="display: block; margin-top: 10px; color: var(--accent); font-weight: 600; font-size: 0.85rem; text-decoration: underline;">→ Visit Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-actions reveal"><a href="portfolio/" class="btn-primary">
+          <i class="fas fa-play-circle"></i>
+          <span data-i18n="hero_cta2">View Our Work</span>
+        </a></div>
+
+  </div>
+</section>
+
+<section id="contact" data-page="contact">
+  <div class="container">
+<div class="section-tag reveal"><i class="fas fa-paper-plane"></i> <span data-i18n="cont_tag">Get In Touch</span></div>
+<h2 class="section-title reveal" data-i18n="cont_title">Let's Build Something <span class="text-accent">Great</span></h2>
+<p class="section-sub reveal" style="margin-bottom:48px" data-i18n="cont_sub">Ready to take your digital presence to the next level? Reach out and we'll get back to you within 24 hours.</p>
+    <div class="hero-actions reveal-left"><a href="contact/" class="btn-primary">
+          <span data-i18n="hero_cta1">Start Your Project</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+<a href="https://wa.me/212669840756" target="_blank" rel="noopener" class="whatsapp-btn">
+          <i class="fab fa-whatsapp" style="font-size:1.3rem"></i>
+          <span data-i18n="whatsapp_btn">Chat on WhatsApp</span>
+        </a></div>
+  </div>
+</section>
+</main>
+
+<!-- ─── FOOTER ─────────────────────────────────────────── -->
+<footer id="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="assets/images/voniweb-logo.webp" alt="Voniweb – Virtual Web Agency" class="footer-logo-img" width="1024" height="1536" decoding="async" loading="lazy"></div>
+      <p class="footer-desc" data-i18n="footer_desc">Premium website development for businesses in Morocco and beyond. Building digital excellence since 2022.</p>
+      <div class="footer-socials">
+        <a href="https://wa.me/212669840756" class="social-link" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:hello@voniweb.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/voniweb" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h2 data-i18n="footer_services">Services</h2>
+      <div class="footer-links">
+        <a href="services/" data-i18n="s1_title">Business Websites</a>
+        <a href="services/" data-i18n="s2_title">Landing Pages</a>
+        <a href="services/" data-i18n="s3_title">Calendar Automation</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h2 data-i18n="footer_company">Company</h2>
+      <div class="footer-links">
+        <a href="./" data-i18n="nav_home">Home</a>
+        <a href="about/" data-i18n="nav_about"><span id="about" aria-hidden="true" style="all:unset"></span>About</a>
+        <a href="portfolio/" data-i18n="nav_portfolio">Portfolio</a>
+        <a href="faq/" data-i18n="nav_faq"><span id="faq" aria-hidden="true" style="all:unset"></span>FAQ</a>
+        <a href="contact/" data-i18n="nav_contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h2 data-i18n="footer_contact">Contact</h2>
+      <div class="footer-contact-item"><i class="fas fa-phone"></i><a href="tel:+212669840756">+212669840756</a></div>
+      <div class="footer-contact-item"><i class="fas fa-envelope"></i><a href="mailto:hello@voniweb.com">hello@voniweb.com</a></div>
+      <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Taza / Fes, Morocco</span></div>
+      <div style="margin-top:16px">
+        <a href="https://wa.me/212669840756" target="_blank" rel="noopener" class="whatsapp-btn" style="padding:10px 18px; font-size:0.85rem;">
+          <i class="fab fa-whatsapp"></i> <span data-i18n="whatsapp_btn">Chat on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom" style="max-width:1300px; margin:0 auto;">
+    <span>© 2026 Voniweb. <span data-i18n="footer_rights">All rights reserved.</span></span>
+    <span data-i18n="footer_made">Crafted with ❤ in Morocco</span>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button type="button" id="back-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ─── JAVASCRIPT ─────────────────────────────────────── -->
+<script src="assets/js/home.js" defer></script>
+
+
+
+</body>
+</html>
